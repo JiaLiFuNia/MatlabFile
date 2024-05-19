@@ -7,6 +7,11 @@ gx_csape = @(x) fnval(pp,x);
 disp(gx_csape);
 fplot(gx_csape,[0 10]);
 
+
+
+
+
+
 gx_inte = integral(gx,0,10);
 gx_csape_inte = integral(gx_csape,0,10);
 fprintf("g(x)求积分：%f\n", gx_inte);
